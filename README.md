@@ -24,15 +24,18 @@ A full-stack financial dashboard that processes bank statements and provides ins
 - PostgreSQL 15+
 - Docker (optional)
 
+###
+
 ### Backend Setup
 ```bash
 cd backend
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-
+```
 ### Frontend Setup
 ```bash
 cd frontend
 npm install
 npm run dev
+```
